@@ -23,6 +23,6 @@
   "author": "Roy Ben-Sasson",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "0.51.0"
+    "react-native": "^0.51.0"
   }
 }
