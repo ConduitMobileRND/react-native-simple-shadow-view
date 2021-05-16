@@ -50,7 +50,7 @@ class ShadowView extends Component {
           style={[flattenedStyle]}
           borderWidth={borderWidth}
           borderColor={borderColor !== undefined ? borderColor : 'black'}
-          backgroundColor={backgroundColor}
+          backgroundColor={backgroundColor!==undefined?backgroundColor:'white'}
           borderRadius={borderRadius}
           shadowColor={shadowColor !== undefined ? shadowColor : 'black'}
           shadowOffsetX={shadowOffsetX}
